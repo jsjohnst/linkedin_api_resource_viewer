@@ -1,6 +1,6 @@
 <?php
 
-$callback_url = "PUT IN YOUR CALLBACK URL HERE"; // should be PHP_SELF location
+$callback_url = "PUT IN YOUR CALLBACK URL HERE"; // should be PHP_SELF location for request.php
 
 // hard coded access token for the default user
 if(!isset($_SESSION["accessToken"])) {
